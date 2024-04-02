@@ -27,6 +27,7 @@ const {
   Gitcoin,
   Poh,
   PHI,
+  Farcaster,
   NFT,
   GnosisSafe,
   Snapshot,
@@ -197,6 +198,13 @@ if (process.env.NEXT_PUBLIC_FF_PHI_STAMP === "on") {
   platforms.set("PHI", {
     platform: new PHI.PHIPlatform(),
     platFormGroupSpec: PHI.ProviderConfig,
+  });
+}
+
+if (process.env.NEXT_PUBLIC_FF_FARCASTER_STAMP === "on") {
+  platforms.set("Farcaster", {
+    platform: new Farcaster.FarcasterPlatform(),
+    platFormGroupSpec: Farcaster.ProviderConfig,
   });
 }
 

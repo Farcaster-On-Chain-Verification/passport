@@ -155,6 +155,9 @@ const usePlatformIsExcluded = (platform: PlatformScoreSpec) => {
     // Feature Flag PHI Stamp
     if (process.env.NEXT_PUBLIC_FF_PHI_STAMP !== "on" && platform.platform === "PHI") return true;
 
+    // Feature Flag Farcaster Stamp
+    if (process.env.NEXT_PUBLIC_FF_FARCASTER_STAMP !== "on" && platform.platform === "Farcaster") return true;
+
     // Feature Flag Holonym Stamp
     if (process.env.NEXT_PUBLIC_FF_HOLONYM_STAMP !== "on" && platform.platform === "Holonym") return true;
 

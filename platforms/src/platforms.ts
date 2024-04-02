@@ -18,6 +18,7 @@ import * as Brightid from "./Brightid";
 import * as Coinbase from "./Coinbase";
 import * as GuildXYZ from "./GuildXYZ";
 import * as PHI from "./PHI";
+import * as Farcaster from "./Farcaster";
 import * as Holonym from "./Holonym";
 import * as Idena from "./Idena";
 import * as Civic from "./Civic";
@@ -53,6 +54,7 @@ const platforms: Record<string, PlatformConfig> = {
   Coinbase,
   GuildXYZ,
   PHI,
+  Farcaster,
   Holonym,
   Idena,
   Civic,

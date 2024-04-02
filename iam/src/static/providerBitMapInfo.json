@@ -116,5 +116,6 @@
   { "bit": 78, "index": 0, "name": "ETHEnthusiast" },
   { "bit": 79, "index": 0, "name": "ETHAdvocate" },
   { "bit": 80, "index": 0, "name": "ETHPioneer" },
-  { "bit": 81, "index": 0, "name": "ETHMaxi" }
+  { "bit": 81, "index": 0, "name": "ETHMaxi" },
+  { "bit": 82, "index": 0, "name": "Farcaster" }
 ]
